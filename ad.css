@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "One";
+    src: url("../fonts/LeagueMonoVariable.ttf");
+}
+
+@font-face {
+    font-family: "Two";
+    src: url("../fonts/MetaVariableDemo-Set.woff2");
+}
+
+.ad {
+    width: 336px;
+    height: 280px;
+    background: url("../images/WOOOOO.webp") right;
+    /*background: url("");*/
+    position: absolute;
+    background-size: 180%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-family: "One";
+    color: red;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 275px;
+    background: white;
+    
+}
+
+.indentOne {
+    width: 170px;
+}
+
+.indentTwo {
+    margin-left: 50px;
+}
+
+.line {
+    font-family: "Two";
+    color: red;
+    margin-left: 0px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background: white;
+}
+.linky {
+    font-family: "Two";
+    color: orange;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: black;
+}
